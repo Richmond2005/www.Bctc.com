@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Website</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="http://fonts.gstatic.com">
+    <link rel="https://fonts.googleapis.com/css2?family=poppins:wght@100;200;300;400;600;700&display=swap" href="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.70/css/font-awesome.main.css">
+</head>
+<body>
+    <section class="sub-header">
+      <nav>
+          <a href="index.html"><img src="images/LOGO.PNG"></a>
+        <div class="nav-links"id="navLinks">
+            <i class="fa fa-times"onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Course.html">Course</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars"onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+  <!-----------about us content --------->  
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We are the best Community college in Liberia</h1>
+             
+                <p>Bong County Technical College is a four years degree programe that offers bachelors degree in
+                    Education, Information Technology, Engineering, Agriculture, Nursing and Mining. The school was originally desinged 
+                    to be just a technical college, but as the  year goes by, we advanced more and incoporrated a university degree into the 
+                    system. 
+                </p>
+            <a href=""class="hero-btn red-btn">EXPLORE NOW</a>
+            <img src="mmexport1561625496198.jpg">
+<h4>Currently, we have graduated two batches of sutdents (class of 2021 and class of 2022) we are wroking so
+                    tirlesly to make sure that this school becomes a center for exellence</h4>
+        </div>
+        <div class="about-col"></div>
+    </div>
+</section>
+
+<!-------- Footer --------->
+
+<section class="footer">
+    <h4>About Us</h4>
+<p>As the world moved to Information Technogy, We build you up to meet the challenges of the global Community</p>
+<div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-linkedin"></i>
+    
+</div>
+<p>made with <i class="fa-fa-heart-o"></i> by Momodu Gray</p>
+</section>
+
+
+
+
+
+
+    <!------javaScript for Toggle Menu--------->
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "200px";
+        }     
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
